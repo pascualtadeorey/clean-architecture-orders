@@ -1,0 +1,42 @@
+# Node
+node_modules/
+
+# Builds / outputs
+.dist/
+dist/
+build/
+.out/
+.tmp/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+*.log.*
+pino-*.log
+
+# Coverage / caches
+coverage/
+.vitest/
+.cache/
+.eslintcache
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Docker overrides
+docker-compose.override.yml
+
+# Swap
+*.swp
+*.swo
